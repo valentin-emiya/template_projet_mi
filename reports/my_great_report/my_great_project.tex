@@ -10,13 +10,18 @@
 \usepackage{hyperref}  % Pour les liens hypertextes
 \usepackage{lipsum} % pour générer un faux texte
 \usepackage{todonotes} % Pour mentionner ce qu'il reste à faire
-%\usepackage{}
 
 \graphicspath{{figures/}}  % répertoire contenant les figures
 
+% Utiliser des macros pour les notations importantes
 \def\energie{E}
 \def\masse{m}
 \def\vitesse{c}
+\def\setN{\mathbb{N}}
+\def\setZ{\mathbb{Z}}
+\def\setR{\mathbb{R}}
+\def\setC{\mathbb{C}}
+\newcommand{\pscalaire}[2]{\left < #1, #2 \right >}
 
 \title{Mon super projet maths-info}
 \author{Dream Team}
@@ -41,7 +46,7 @@ Positionner le projet par rapport à l'existant~\cite{Pedregosa2011Scikit, Rahim
 \section{Conception}
 \lipsum[5]
 
-L'équation~\eqref{eqn:relativite} est connue de tous.
+L'équation~\eqref{eqn:relativite} est connue de tous. On travaillera dans $\setN, \setZ, \setR, \setC$ et on note $\pscalaire{\mathbf{u}}{\mathbf{v}}$ le produit scalaire de $\mathbf{u}$ et $\mathbf{v}$.
 
 \begin{align}
 \energie & = \masse \times \vitesse^2
