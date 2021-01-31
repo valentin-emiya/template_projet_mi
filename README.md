@@ -11,3 +11,11 @@ Vous pouvez utiliser cette structure comme base pour créer votre dépôt git:
 * dossier `reports/`: ajoutez vos rapports, comptes-rendus, notes, etc.
 * mettez à jour ce fichier `README.md`
 
+Git tutorial
+------------
+
+# References
+
+*  [Git Cheat Sheet](https://www.git-tower.com/blog/git-cheat-sheet/): une 
+page synthétique sur les différentes commandes
+*  [GIt - Book](https://git-scm.com/book/en/v2/): document de référence
